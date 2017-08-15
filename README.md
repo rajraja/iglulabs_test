@@ -19,12 +19,6 @@ To install Node.js dependencies you're going to use npm again. In the applicatio
 $ npm install
 ```
 
-Then install the bower components by bower. In the application folder run this in the command-line:
-
-```bash
-$ bower install
-```
-
 ## Running My Application
 In the application folder run this in the command-line:
 
