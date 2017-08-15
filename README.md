@@ -25,7 +25,7 @@ Then install the bower components by bower. In the application folder run this i
 $ bower install
 ```
 
-## Running Your Application
+## Running My Application
 In the application folder run this in the command-line:
 
 ```bash
@@ -35,3 +35,12 @@ $ node server.js
 and  just go to [http://localhost:3000](http://localhost:3000)
 
 That's it! Application should be running.
+
+Now You can signup and post the status messages and get status messages.
+
+
+After click current message button, call the current status messages api.
+After click previous 10 message button, call the previous 10 status messages api.
+After click all button, call the all status messages api.
+
+Go to particular  message and click the update after changing the message then update status message api called.
