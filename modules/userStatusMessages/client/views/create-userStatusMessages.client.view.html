@@ -1,0 +1,18 @@
+<section class="content">
+  <div >
+    <h1 class="page-header">Post Message</h1>
+  </div>
+  <form name="postMessageForm" novalidate>
+    <div class="row">
+      <div class="box-body form-group ">
+        <label for="message">Message</label><br>
+          <textarea type="text" rows="3" class="form-control" id="message" name="message" ng-model="message" placeholder="Enter message"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="box-footer form-group text-center">
+          <input type="button" class="btn btn-info" value="Post Message" ng-click="postMessage()">
+      </div>
+    </div>
+  </form>
+</section>

@@ -1,0 +1,18 @@
+<section ng-init="findOne()">
+  <div >
+    <h1 class="page-header">Edit Message</h1>
+  </div>
+  <form name="postMessageForm" novalidate>
+    <div class="row">
+      <div class="box-body form-group ">
+        <label for="message">Message</label><br>
+          <textarea type="text" rows="3" class="form-control" id="message" name="message" ng-model="userStatusMessage.message" placeholder="Enter message"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="box-footer form-group text-center">
+          <input type="button" class="btn btn-info" value="Update Message" ng-click="updateMessage()">
+      </div>
+    </div>
+  </form>
+</section>
